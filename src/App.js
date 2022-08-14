@@ -45,6 +45,11 @@ function App() {
           <Route key={idx} path={game.link} element={<Game game={game} />} />
         ))}
       </Routes>
+      <footer>
+        <span>© Zois Lefkidis</span>
+        <span>emathitis.gr 2022</span>
+        <span>the best video games</span>
+      </footer>
     </div>
   );
 }
